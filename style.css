@@ -379,13 +379,6 @@ html {
     width: 200px;
     height:65px;
   }
-  .row-body2__content-part--fix{
-    width:201px;
-    height:81px;
-  }
-  .row-body2__content-part--fix .row-body2__title--fix{
-    font-size:21px;
-  }
   .row-body2__content-part .row-body2__content-title{
     width: 200px;
     height:25px;
@@ -394,9 +387,16 @@ html {
   .row-body2__content-part .row-body2__course{
     font-size:15px
   }
-  .row-body2__content-title .row-body2__title--fix {
+  .row-body2__content-part--fix{
+    width:201px;
+    height:81px;
+  }
+  .row-body2__content-part--fix .row-body2__title--fix{
+    font-size:21px;
+  }
+  .row-body2__content-title.row-body2__title--fix {
     height: auto;
-}
+  }
 }
 @media only screen and (max-width: 1366px){
   .section-body-2{
@@ -442,14 +442,6 @@ html {
     height:60px;
     width:206px;
   }
-  .row-body2__title--fix{
-    height:56px;
-    width:209px
-  }
-  h4.row-body2__content-part--fix{
-    width:209px;
-    height:76px
-  }
   .row-body2__content-part .row-body2__content-title{
     width:209px;
     height:24px;
@@ -459,6 +451,14 @@ html {
     width:209px;
     height:50px;
     font-size:21px
+  }
+  .row-body2__title--fix{
+    height:56px;
+    width:209px
+  }
+  .row-body2__content-part--fix{
+    width:209px;
+    height:76px
   }
   .row-body2__content-part .row-body2__course{
     font-size:15px
@@ -502,7 +502,7 @@ html {
   }
   .row-body2__item{
     width: 290px;
-    height:152px;
+    height:145px;
     padding:25px 20px;
   }
   .row-body2__item-icon-box{
@@ -647,7 +647,6 @@ html {
   }
   .row-body2{
     display:flex;
-    justify-content:center;
     width: 540px;
     height:1368px;
   }
@@ -669,11 +668,35 @@ html {
     width:35px;
     height:40px
   }
+  .row-body2__content-title{
+    width:100%;
+  }
+  .row-body2__content-part{
+    width: 193px;
+    height: 54px;
+  }
   .row-body2__content-part .row-body2__content-title{
-    font-size:18px
+    font-size:18px;
+    width:auto;
   }
   .row-body2__content-part .row-body2__course{
     font-size:15px
+  }
+  .row-body2__content-part.row-body2__content-part--fix{
+    height: auto;
+    width:194px;
+  }
+  .row-body2__content-title.row-body2__title--fix {
+    width: auto;
+  }
+  .row-body2__content-title.row-body2__title--fix {
+    height: 26px;
+  }
+  .row-body2__content-part--fix--4{
+    width:215px;
+  }
+  .row-body2__content-part.row-body2__content-part--fix--46.row-body2__content-part--fix--4{
+    height: 53px;
   }
 }
 
